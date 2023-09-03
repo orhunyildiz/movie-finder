@@ -1,8 +1,8 @@
-import Search from "./models/search";
-import { elements, renderLoader, clearLoader } from "./base";
-import * as searchView from "./views/searchView";
-import * as movieView from "./views/movieView";
-import { Movie } from "./models/movie";
+import Search from "./models/search.js";
+import { elements, renderLoader, clearLoader } from "./base.js";
+import * as searchView from "./views/searchView.js";
+import * as movieView from "./views/movieView.js";
+import { Movie } from "./models/movie.js";
 
 const state = {};
 
