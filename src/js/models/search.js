@@ -6,7 +6,7 @@
 //     .then(response => console.log(response))
 //     .catch(err => console.error(err));
 
-import { apiKey, baseUrl } from "../config";
+import { apiKey, baseUrl } from "../config.js";
 
 export default class Search {
     constructor(keyword) {

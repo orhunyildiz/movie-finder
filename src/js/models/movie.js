@@ -1,4 +1,4 @@
-import { apiKey, baseUrl } from "../config";
+import { apiKey, baseUrl } from "../config.js";
 
 export class Movie {
     constructor(id) {

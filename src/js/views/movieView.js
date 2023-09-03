@@ -1,4 +1,4 @@
-import { elements } from "../base";
+import { elements } from "../base.js";
 
 export const backToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" })
